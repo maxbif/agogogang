@@ -1,0 +1,60 @@
+body {
+  background-color: #FAB5DB;
+  font-family: Totentanz-Slanted;
+}
+
+@font-face {
+  font-family: Totentanz-Slanted;
+  src: url(../webfonts/Totentanz-Slanted.otf);
+}
+
+.manualborder-top {
+  border-top: solid black thick;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.thin {
+  border-width: thin;
+}
+
+.manualborder-bottom {
+  border-bottom: solid black thick;
+}
+
+footer {
+    background-color: #FAB5DB;
+    height: 5%;
+    padding-top: 1%;
+    padding-left: 7%;
+}
+
+@media (min-width: 768px) {
+  .container-fluid{
+    padding-right: 0;
+  }
+  .leftcol{
+    margin: 0;
+    padding: 5% 3% 0% 7%;
+  }
+  .rightcol{
+    margin: 0;
+    padding: 5% 0% 0% 5%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container-fluid{
+    padding: 0;
+  }
+  .leftcol{
+    margin: 0;
+    padding: 10% 10% 0% 10%;
+  }
+  .rightcol{
+    margin: 0;
+    padding: 5% 10% 10% 10%;
+  }
+}
