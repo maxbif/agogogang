@@ -12,6 +12,9 @@ body {
   border-top: solid black thick;
 }
 
+.marques {
+  font-size: 13px;
+}
 a:hover {
   text-decoration: none !important;
 }
