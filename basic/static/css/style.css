@@ -33,15 +33,15 @@ footer {
 
 @media (min-width: 768px) {
   .container-fluid{
-    padding-right: 0;
+    padding-right: 1;
   }
   .leftcol{
     margin: 0;
-    padding: 5% 3% 0% 7%;
+    padding: 4% 3% 0% 7%;
   }
   .rightcol{
     margin: 0;
-    padding: 5% 0% 0% 5%;
+    padding: 4% 0% 0% 4%;
   }
 }
 
